@@ -1,0 +1,27 @@
+{
+  "name": "simple-web-crawler",
+  "version": "0.0.1",
+  "description": "Simple web crawler that saves urls of main page containing one or more of the given strings",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhenriques/simple-web-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "data",
+    "fetch"
+  ],
+  "author": "dhenriques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhenriques/simple-web-crawler/issues"
+  },
+  "homepage": "https://github.com/dhenriques/simple-web-crawler#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "nconf": "^0.8.4",
+    "request": "^2.79.0",
+    "url-parse": "^1.1.7"
+  }
+}

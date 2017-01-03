@@ -1,0 +1,11 @@
+{
+  "site": {
+    "urlsToSearch" : ["http://www.somesite.com/default.aspx?pg=1"],
+    "wordsToSearch" : ["some text 1%", "some text 2"],
+    "maxPagesToVisit" : 1000,
+    "urlToSaveContains" : "/url/must/contain-",
+    "searchableUrl" : "/something/default.aspx?pg",
+    "fileToSaveData" : "./info.json"
+  },
+  "sites" : [ "site"]
+}
